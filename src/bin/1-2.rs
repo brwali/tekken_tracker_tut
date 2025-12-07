@@ -32,7 +32,8 @@ fn main() {
     // so if we try to do
     let x = 5;
     let y = x;
-    // we can still do
+    // we can still do (behind the scenes x is cloned when the value is assigned to y, but this is fast
+    // so rust does it automatically)
     println!("{} {}", x, y);
 
 }
