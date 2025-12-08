@@ -10,7 +10,7 @@ fn main() {
     // if you ever need to declare a variable or you need something for
     // a function call (more about that later), use an underscore at the start
     // so the compiler stops complaining at you
-    let _never-used = "hehe";
+    let _never_used = "hehe";
 
     // You may be wondering why println has a ! at the end
     // if you are its because this indicates that it is a macro
